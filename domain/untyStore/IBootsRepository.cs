@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace untyStore
 {
-    interface IBootsRepository
+    public interface IBootsRepository
     {
+        Boot[] GetAllByTitle(string titlePart);
     }
 }

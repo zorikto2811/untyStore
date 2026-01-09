@@ -1,14 +1,13 @@
-﻿using System;
-
+﻿
 namespace untyStore
 {
-    public class Boots
+    public class Boot
     {
         public int Id { get; }
 
         public string Title { get; }
 
-        public Boots(int id, string title)
+        public Boot(int id, string title)
         {
             Id = id;
             Title = title;
